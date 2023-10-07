@@ -1,0 +1,48 @@
+/* Existing Styles */
+.flashcard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+    gap: 20px;  /* To put some space between the card, buttons, and the input */
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #008CBA;
+    cursor: pointer;
+    height: 40px;
+    font-size: large;
+    margin: 0 10px;  /* Adds space between the buttons */
+  }
+  
+  /* New Styles */
+  .input-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .input-container input {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 150px;
+    
+
+  }
+  
+  
+  .buttons-container {
+    display: flex;
+    gap: 10px;  /* This provides spacing between each button */
+  }
+  
+  button.submit-button {
+    width: 100px; /* You can adjust as necessary */
+  }
